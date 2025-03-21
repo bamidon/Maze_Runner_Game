@@ -7,8 +7,6 @@ A challenging maze navigation game with enemies, traps, and multiple levels of d
 - [Features](#features)
 - [Requirements](#requirements)
 - [Installation](#installation)
-  - [Option 1: Running from Source](#option-1-running-from-source)
-  - [Option 2: Running the Executable](#option-2-running-the-executable)
 - [How to Play](#how-to-play)
   - [Controls](#controls)
   - [Game Elements](#game-elements)
@@ -35,53 +33,39 @@ Maze Runner is a challenging maze navigation game where you must find your way t
 
 ## Requirements
 
-- Python 3.7 or higher (if running from source)
-- Pygame library (if running from source)
-- NumPy library (if running from source)
+- Python 3.7 or higher
+- Pygame library
+- NumPy library
 - Windows, macOS, or Linux operating system
 
 ## Installation
 
-### Option 1: Running from Source
+1. **Clone the Repository**:
+   ```
+   git clone https://github.com/bamidon/Maze_Runner_Game.git
+   cd Maze_Runner_Game
+   ```
 
-If you want to run the game from source code, follow these steps:
-
-1. **Install Python**:
-   - Download and install Python 3.7 or higher from [python.org](https://www.python.org/downloads/)
-   - Make sure to check "Add Python to PATH" during installation (Windows)
-
-2. **Download the Game**:
-   - Download the game source code zip file
-   - Extract the zip file to a folder of your choice
+2. **Create and Activate a Virtual Environment** (optional but recommended):
+   ```
+   # For macOS/Linux
+   python3 -m venv venv3
+   source venv3/bin/activate
+   
+   # For Windows
+   python -m venv venv3
+   venv3\Scripts\activate
+   ```
 
 3. **Install Required Libraries**:
-   - Open a command prompt or terminal
-   - Navigate to the game folder:
-     ```
-     cd path/to/maze_runner
-     ```
-   - Install the required libraries:
-     ```
-     pip install pygame numpy
-     ```
+   ```
+   pip install pygame numpy
+   ```
 
 4. **Run the Game**:
-   - In the command prompt or terminal, run:
-     ```
-     python main.py
-     ```
-
-### Option 2: Running the Executable
-
-If you're using the pre-built executable version:
-
-1. **Download the Game**:
-   - Download the game executable zip file
-   - Extract the zip file to a folder of your choice
-
-2. **Run the Game**:
-   - Navigate to the extracted folder
-   - Double-click on `maze_runner.exe` (Windows) or `maze_runner` (macOS/Linux)
+   ```
+   python main.py
+   ```
 
 ## How to Play
 
