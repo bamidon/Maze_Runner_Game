@@ -123,12 +123,6 @@ Maze Runner is a challenging maze navigation game where you must find your way t
 - Close other applications running in the background
 - If running from source, make sure you have the latest version of Pygame
 
-## Credits
-
-- Game developed by [Your Name]
-- Sound effects from [Source]
-- Special thanks to [Anyone you want to thank]
-
 ---
 
 If you encounter any issues not covered in this README, please contact [your contact information]. 
